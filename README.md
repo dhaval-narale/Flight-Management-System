@@ -14,15 +14,13 @@ Programming Language: Java
 Database: MySQL
 Libraries: JDBC
 
-Flight Management System/
-│── src/
-│   ├── application/
-│   │   ├── App.java            # Main application (User interaction)
-│   │   ├── Flight.java         # Flight entity class
-│   │   ├── FlightManagementSystem.java  # Business logic for flight operations
-│   │   ├── DB.java             # Database connection handling
-│   │   ├── Query.java          # SQL Queries
-│── README.md                   # Project documentation
+Flight-Management-System/
+│── App.java                        # Main application (User interaction)
+│── Flight.java                      # Flight entity class
+│── FlightManagementSystem.java      # Business logic for flight operations
+│── DB.java                          # Database connection handling
+│── Query.java                       # SQL Queries
+│── README.md                        # Project documentation
 
 
 Installation & Setup
