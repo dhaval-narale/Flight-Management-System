@@ -5,7 +5,8 @@ FROM openjdk:17
 WORKDIR /app
 
 # Copy all Java files into the container
-COPY Flight Management System/*.java /app/
+COPY ./*.java /app/
+
 
 # Compile all Java files
 RUN javac App.java
